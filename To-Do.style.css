@@ -1,0 +1,72 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+  background:white;
+}
+
+h2{
+font-family: 'Abril Fatface', cursive;
+font-size: 50px;
+}
+
+textarea{
+  height:20vh;
+  width:85vw;
+  border: none;
+  border-radius:2%;
+  box-shadow: 0 0 10px rgba(255,182,193 ,0.7 );
+}
+
+h1{
+  position: relative;
+  background: white;
+  margin:15px 10px;
+  padding:15px 10px;
+  border-radius:10px;
+  box-shadow: 0px 0px 10px rgba(255,182,193 ,0.7);
+  font-family: 'Nunito', sans-serif;
+}
+header{
+  text-align: center;
+  margin:20px;
+}
+
+.ta{
+  position: relative;
+  display:flex;
+  justify-content: center;
+  padding:10px 10px;
+}
+
+.btn{
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    background: #1E90FF;
+    width: 120px;
+    padding: 7px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    border:none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow, transform;
+    transition-property: box-shadow, transform;
+}
+.btn:hover, .btn:focus, .btn:active{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+.abtn{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  margin:10px;
+}
